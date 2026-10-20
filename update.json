@@ -1,0 +1,15 @@
+{
+  "tag_name": "v0.4.71",
+  "draft": false,
+  "prerelease": false,
+  "body": "应用内检查更新功能现已可用。\n\n- 在“更多 → 检查更新”或“关于 → 检查更新”查看新版、更新说明和下载进度。\n- 下载后校验安装包，保存当前进度，再由系统确认覆盖安装。首次需允许 Meets 安装应用。\n- 原有固件、汉化补丁、存档和设置保留；取消安装恢复原来的养成状态。\n- 更新渠道无需登录。APK不包含游戏固件、存档或登录凭据。\n\nAndroid 8.0及以上；arm64-v8a和x86_64。低于0.4.70的旧版需要先手动安装一次本版，后续可从App内更新。\n",
+  "assets": [
+    {
+      "name": "meets-android-0.4.71-debug.apk",
+      "state": "uploaded",
+      "size": 4181583,
+      "digest": "sha256:5d8357a8eff5e95316a72c34b448c749de67119028ffa332f8e88b28c0a83e42",
+      "browser_download_url": "https://github.com/bianlius/meets-android-updates/releases/download/v0.4.71/meets-android-0.4.71-debug.apk"
+    }
+  ]
+}
