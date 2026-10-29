@@ -1,15 +1,15 @@
 {
-  "tag_name": "v0.4.83",
+  "tag_name": "v0.4.85",
   "draft": false,
   "prerelease": false,
-  "body": "## Meets Android 0.4.83\n\n- 修复 Sanrio 版解锁拓麻农场时可能绿屏、重启并卡在继续游戏画面的问题；升级后旧汉化存档会迁移到修复后的补丁。\n- 新增“更多 → 修复存档”，可备份并尝试恢复此前因绿屏损坏的存档；同时加强异常写入拦截、自动备份和故障报告。\n- 使用“解锁场景”时，Sanrio 手册会列出对应地点可遇见的人物；旧存档已解锁地点会在读取时自动补齐。人物先显示问号剪影，见面后才记录照片。\n\n安装包只包含应用和独立汉化 BPS，不包含原版 ROM 或宠物存档。使用前仍需导入自己的匹配固件；同签名覆盖安装会保留现有应用数据。\n",
+  "body": "新增养成辅助功能：\n\n- 快速成长：推进到下一成长阶段，形态及遗传结果由游戏决定。\n- 跳过睡眠：支持夜间睡眠与婴儿午睡，游戏时钟、成长和需求随正常固件流程推进。\n- 两项操作均会事先备份完整存档，失败时回滚，并保留原暂停和倍速设置。\n\n继续使用现有应用签名，可覆盖升级并保留存档。安装包不含固件，请使用自己的固件。\n",
   "assets": [
     {
-      "name": "meets-android-0.4.83-debug.apk",
+      "name": "meets-android-0.4.85-debug.apk",
       "state": "uploaded",
-      "size": 4643815,
-      "digest": "sha256:e6846fa9bf14a556ed622e50bfc682b6ac45a6bf5d3dc4165ac5bbe479d0b97b",
-      "browser_download_url": "https://github.com/bianlius/meets-android-updates/releases/download/v0.4.83/meets-android-0.4.83-debug.apk"
+      "size": 4797205,
+      "digest": "sha256:48eb5fcf2f4a6a1bc28cff3220e616c4c0e45d1cae117fd2f6c1235c2dbdfd2b",
+      "browser_download_url": "https://github.com/bianlius/meets-android-updates/releases/download/v0.4.85/meets-android-0.4.85-debug.apk"
     }
   ]
 }
